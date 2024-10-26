@@ -10,15 +10,16 @@ const inter = Inter({
 })
 
 export const metadata = {
-  title: 'Everything Starts as a Square - Get lost in the world of icon design',
+  title:
+    'Cabinet Infirmier Civiale - Infirmière à domicile et au cabinet à Belleville, Paris',
   description:
-    'A book and video course that teaches you how to design your own icons from scratch.',
+    'Le Cabinet Infirmier Civiale, une institution à Belleville, Paris, offre des soins infirmiers personnalisés à domicile et sur rendez-vous au cabinet pour assurer le bien-être de chaque patient.',
 }
 
 export default function RootLayout({ children }) {
   return (
     <html
-      lang="en"
+      lang="fr"
       className={clsx(
         'h-full scroll-smooth bg-white antialiased',
         inter.variable,

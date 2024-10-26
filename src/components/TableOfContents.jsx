@@ -7,28 +7,29 @@ import {
 import { SectionHeading } from '@/components/SectionHeading'
 
 const tableOfContents = {
-  'Getting started': {
-    'Getting started': 1,
-    'Intro to Figma': 15,
-    'Setting up your first artboard': 20,
+  'Introduction aux soins': {
+    'Présentation des services': 1,
+    'Première consultation': 5,
+    'Guide des soins à domicile': 12,
   },
-  Fundamentals: {
-    'Strokes and fills': 21,
-    'End points': 22,
-    'Bezier curves': 26,
-    'Designing on a grid': 31,
-    'Vector shapes': 45,
+  'Soins infirmiers': {
+    'Soins de plaies': 15,
+    'Gestion des traitements': 18,
+    'Suivi et prévention': 25,
+    Vaccinations: 30,
+    Injections: 35,
   },
-  'Boolean operations': {
-    'Combining shapes': 50,
-    'Subtracting shapes': 57,
-    'Intersecting shapes': 66,
-    Flattening: 78,
+  'Services spécialisés': {
+    'Prise en charge des patients âgés': 40,
+    'Accompagnement post-opératoire': 45,
+    'Soins palliatifs': 52,
+    'Éducation thérapeutique': 60,
   },
-  'Optimizing for production': {
-    'Preparing for SVG': 82,
-    'Configuring your export settings': 88,
-    'Minifying and removing metadata': 95,
+  'Informations pratiques': {
+    'Conseils pour les soins à domicile': 65,
+    'Préparation avant une visite': 70,
+    Téléconsultation: 75,
+    'Contact et urgences': 80,
   },
 }
 
@@ -41,16 +42,15 @@ export function TableOfContents() {
     >
       <Container>
         <SectionHeading number="1" id="table-of-contents-title">
-          Table of contents
+          Services et informations
         </SectionHeading>
         <p className="mt-8 font-display text-4xl font-bold tracking-tight text-slate-900">
-          Get a look at all of the content covered in the book. Everything you
-          need to know is inside.
+          Découvrez l’ensemble des services et informations que nous offrons.
         </p>
         <p className="mt-4 text-lg tracking-tight text-slate-700">
-          “Everything Starts as a Square” is comprised of 240 tightly edited,
-          highly visual pages designed to teach you everything you need to know
-          about icon design with no unnecessary filler.
+          Le Cabinet Infirmier Civiale vous propose une gamme complète de soins
+          infirmiers et de services spécialisés pour répondre aux besoins de
+          santé de chaque patient.
         </p>
         <Expandable>
           <ol role="list" className="mt-16 space-y-10 sm:space-y-16">
@@ -68,7 +68,7 @@ export function TableOfContents() {
                       <li
                         key={title}
                         className="flex justify-between py-3"
-                        aria-label={`${title} on page ${pageNumber}`}
+                        aria-label={`${title} sur la page ${pageNumber}`}
                       >
                         <span
                           className="font-medium text-slate-900"
@@ -89,7 +89,7 @@ export function TableOfContents() {
               ))}
             </ExpandableItems>
           </ol>
-          <ExpandableButton>See more</ExpandableButton>
+          <ExpandableButton>Voir plus</ExpandableButton>
         </Expandable>
       </Container>
     </section>

@@ -9,15 +9,15 @@ const sections = [
     id: 'table-of-contents',
     title: (
       <>
-        <span className="hidden lg:inline">Table of contents</span>
-        <span className="lg:hidden">Contents</span>
+        <span className="hidden lg:inline">Services</span>
+        <span className="lg:hidden">Services</span>
       </>
     ),
   },
-  { id: 'screencasts', title: 'Screencasts' },
-  { id: 'resources', title: 'Resources' },
-  { id: 'pricing', title: 'Pricing' },
-  { id: 'author', title: 'Author' },
+  // { id: 'screencasts', title: 'Éducation et Vidéos' }, // Adapted to showcase educational videos
+  // { id: 'resources', title: 'Ressources' }, // Resources for health-related guides or articles
+  { id: 'pricing', title: 'Tarifs' }, // Healthcare service pricing
+  { id: 'author', title: 'Notre Équipe' }, // Team introduction instead of author
 ]
 
 function MenuIcon({ open, ...props }) {

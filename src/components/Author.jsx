@@ -29,26 +29,25 @@ export function Author() {
             <Image
               className="absolute inset-0 h-full w-full object-cover"
               src={authorImage}
-              alt=""
+              alt="Portrait de l'infirmière en chef"
               sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-            <SectionHeading number="5" id="author-title">
-              Author
+            <SectionHeading number="3" id="author-title">
+              Infirmière en Chef
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Mira Lindehoff –</span> Hey
-              there, I’m the author behind ‘Everything Starts as a Square’.
+              <span className="block text-blue-600">Marie Dubois –</span>{' '}
+              Responsable des soins au Cabinet Infirmier Civiale.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              I’ve been designing icons professionally for over a decade and
-              have worked with dozens of the biggest brands to create custom
-              sets for their products. I’m an accomplished conference speaker,
-              and have been teaching icon design workshops every month for the
-              last three years. I’ve worked with designers of all skill levels
-              and honed my way of teaching to really click for anyone who has
-              the itch to start designing their own icons.
+              Avec plus de 20 ans d’expérience dans les soins infirmiers, Marie
+              Dubois est au service des habitants de Belleville. Son approche
+              chaleureuse et attentionnée garantit à chaque patient un suivi
+              personnalisé, que ce soit au cabinet ou à domicile. Elle s'engage
+              à offrir des soins de haute qualité, basés sur le respect et la
+              compassion.
             </p>
             <p className="mt-8">
               <Link
@@ -56,7 +55,7 @@ export function Author() {
                 className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
               >
                 <XIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">Follow on X</span>
+                <span className="ml-4">Contactez Marie</span>
               </Link>
             </p>
           </div>

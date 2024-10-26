@@ -21,28 +21,28 @@ const testimonials = [
   [
     {
       content:
-        'Mira’s teaching style is second to none. Everything was easy to follow every step of the way.',
+        'Le Cabinet Infirmier Civiale est un véritable atout pour notre quartier. Leur équipe est attentionnée et professionnelle.',
       author: {
-        name: 'Antonio Littel',
-        role: 'Frontend Developer',
+        name: 'Julien Martin',
+        role: 'Patient de longue date',
         image: avatarImage3,
       },
     },
     {
       content:
-        'Even though I was excited to learn, I was pessimistic that I wouldn’t actually ever get good enough to design my own icons. I was wrong — this book is all I needed.',
+        'Je suis tellement reconnaissante des soins à domicile fournis par l’équipe. Leur gentillesse et professionnalisme sont exemplaires.',
       author: {
-        name: 'Lynn Nolan',
-        role: 'Growth Marketer',
+        name: 'Sophie Leclerc',
+        role: 'Résidente de Belleville',
         image: avatarImage4,
       },
     },
     {
       content:
-        'I’ve been employed as a professional icon designer for years and still learned tons of new tricks that have made my work even better',
+        'Grâce à leurs soins, ma convalescence a été beaucoup plus facile. Je recommande sans hésitation.',
       author: {
-        name: 'Krista Prosacco',
-        role: 'Professional Designer',
+        name: 'Claire Dupont',
+        role: 'Patiente',
         image: avatarImage9,
       },
     },
@@ -50,28 +50,28 @@ const testimonials = [
   [
     {
       content:
-        'I run an ecommerce store selling rare vintage gummy bears and could never find a good gummy bear icon. Now I can design my own in minutes.',
+        'Je n’ai jamais connu un service aussi humain et attentif. Le Cabinet Infirmier Civiale s’occupe de nous comme une famille.',
       author: {
-        name: 'Cameron Considine',
-        role: 'Entrepreneur',
+        name: 'Antoine Moreau',
+        role: 'Patient de longue durée',
         image: avatarImage7,
       },
     },
     {
       content:
-        'The complete package is worth it for the weekly teardown videos alone. I’ve learned so much watching Mira take apart other icons and recreate them from scratch.',
+        'L’équipe m’a accompagné après mon opération avec un suivi personnalisé et une attention incroyable.',
       author: {
-        name: 'Regina Wisoky',
-        role: 'Design Student',
+        name: 'Marie Laurent',
+        role: 'Patiente en convalescence',
         image: avatarImage11,
       },
     },
     {
       content:
-        'I didn’t expect to find a lot of value in the community but now I’m in there for at least an hour every day picking up tips from other designers.',
+        'Leurs soins à domicile ont fait toute la différence pour ma mère. Je suis impressionnée par leur dévouement.',
       author: {
-        name: 'Vernon Cummerata',
-        role: 'UI Engineer',
+        name: 'Isabelle Dupuis',
+        role: 'Fille d’une patiente',
         image: avatarImage8,
       },
     },
@@ -79,28 +79,28 @@ const testimonials = [
   [
     {
       content:
-        'I couldn’t believe how fast Mira moved in Figma compared to my own workflow. I’m designing icons more accurately in half the time with the shortcuts I learned from her videos.',
+        'Je n’ai jamais eu autant de soutien dans mon parcours de santé. Leur équipe est formidable!',
       author: {
-        name: 'Steven Hackett',
-        role: 'Bootcamp Instructor',
+        name: 'Lucas Perrot',
+        role: 'Patient',
         image: avatarImage5,
       },
     },
     {
       content:
-        'I never thought I would enjoy designing icons but using the ideas in this book, it’s become a great way for me to relax while still being creative.',
+        'Je recommande vivement leurs services à toute personne ayant besoin de soins infirmiers personnalisés et attentionnés.',
       author: {
-        name: 'Carla Schoen',
-        role: 'Startup Founder',
+        name: 'Emma Fontaine',
+        role: 'Résidente de Paris',
         image: avatarImage10,
       },
     },
     {
       content:
-        'All I can say is wow — this is easily the best icon design resource I’ve ever encountered.',
+        'Une équipe de confiance et des soins de qualité. Ils sont toujours disponibles et professionnels.',
       author: {
-        name: 'Leah Kiehn',
-        role: 'Creative Director',
+        name: 'Alice Marchand',
+        role: 'Patiente régulière',
         image: avatarImage6,
       },
     },
@@ -141,12 +141,11 @@ export function Testimonials() {
     <section className="py-8 sm:py-10 lg:py-16">
       <Container className="text-center">
         <h2 className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Some kind words from early customers...
+          Témoignages de nos patients
         </h2>
         <p className="mt-4 text-lg tracking-tight text-slate-600">
-          I worked with a small group of early access customers to make sure all
-          of the content in the book was exactly what they needed. Hears what
-          they had to say about the finished product.
+          Nous sommes honorés de partager les retours de nos patients sur les
+          soins qu’ils ont reçus et l’accompagnement que nous leur offrons.
         </p>
       </Container>
       <Expandable className="group mt-16">
@@ -189,7 +188,7 @@ export function Testimonials() {
             </li>
           ))}
         </ul>
-        <ExpandableButton>Read more testimonials</ExpandableButton>
+        <ExpandableButton>Voir plus de témoignages</ExpandableButton>
       </Expandable>
     </section>
   )
