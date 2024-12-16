@@ -18,7 +18,7 @@ const structuredData = {
   '@context': 'https://schema.org',
   '@type': 'MedicalBusiness',
   name: 'Cabinet Infirmier Civiale',
-  url: 'https://yourwebsite.com',
+  url: 'https://infirmier-belleville.fr',
   logo: '/path-to-logo.png',
   telephone: '+33664206570',
   address: {
@@ -55,7 +55,7 @@ const structuredData = {
     '@type': 'ReserveAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://yourwebsite.com/reservation',
+      urlTemplate: 'https://infirmier-belleville.fr/reservation',
       actionPlatform: [
         'http://schema.org/DesktopWebPlatform',
         'http://schema.org/MobileWebPlatform',
@@ -93,7 +93,7 @@ export default function Home() {
           content="Découvrez notre cabinet à Belleville, Paris, offrant des soins infirmiers personnalisés pour chaque besoin de santé."
         />
         <meta property="og:image" content="/path-to-your-image.jpg" />
-        <meta property="og:url" content="https://yourwebsite.com" />
+        <meta property="og:url" content="https://infirmier-belleville.fr" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />

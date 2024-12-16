@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://yourwebsite.com
+Host: https://infirmier-belleville.fr
 
 # Sitemaps
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://infirmier-belleville.fr/sitemap.xml
