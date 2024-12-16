@@ -102,6 +102,10 @@ export default function Home() {
           content="Des soins infirmiers attentifs à domicile et au cabinet. Situé à Belleville, Paris."
         />
         <meta name="twitter:image" content="/images/cover.png" />
+        <meta
+          name="google-site-verification"
+          content="SzXMK5qViY9lF2_LqZMi7qxl0onwJ2gk5Q9VnR5D7Fs"
+        />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
