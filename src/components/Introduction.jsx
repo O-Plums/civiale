@@ -16,7 +16,7 @@ export function Introduction() {
           domicile et au cabinet.
         </p>
         <p className="mt-4">
-          Depuis plus de 30 ans, notre cabinet situé
+          Depuis plus de 50 ans, notre cabinet situé
           <a
             className="mx-1 text-blue-600 hover:underline"
             target="_blank"

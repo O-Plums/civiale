@@ -26,7 +26,7 @@ const structuredData = {
   telephone: '+33664206570',
   address: {
     '@type': 'PostalAddress',
-    streetAddress: '25 rue de Belleville',
+    streetAddress: '10 rue civiale, Belleville ',
     addressLocality: 'Paris',
     postalCode: '75020',
     addressCountry: 'FR',

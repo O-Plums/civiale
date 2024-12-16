@@ -26,15 +26,15 @@ import Jeanne_Hélène_Ngo_Mintamack from '@/images/avatars/Jeanne_Hélène_Ngo_
 
 const testimonials = [
   [
-    {
-      content:
-        'Le Cabinet Infirmier Civiale est un véritable atout pour notre quartier. Leur équipe est attentionnée et professionnelle.',
-      author: {
-        name: 'Annick Annick',
-        role: 'Patiente',
-        image: Annick_Annick,
-      },
-    },
+    // {
+    //   content:
+    //     'Le Cabinet Infirmier Civiale est un véritable atout pour notre quartier. Leur équipe est attentionnée et professionnelle.',
+    //   author: {
+    //     name: 'Annick Annick',
+    //     role: 'Patiente',
+    //     image: Annick_Annick,
+    //   },
+    // },
     {
       content:
         'Je suis tellement reconnaissante des soins à domicile fournis par l’équipe. Leur gentillesse et professionnalisme sont exemplaires.',
@@ -55,15 +55,15 @@ const testimonials = [
     },
   ],
   [
-    {
-      content:
-        'Je n’ai jamais connu un service aussi humain et attentif. Le Cabinet Infirmier Civiale s’occupe de nous comme une famille.',
-      author: {
-        name: 'Atighou Bah',
-        role: 'Patient de longue durée',
-        image: Atighou_Bah,
-      },
-    },
+    // {
+    //   content:
+    //     'Je n’ai jamais connu un service aussi humain et attentif. Le Cabinet Infirmier Civiale s’occupe de nous comme une famille.',
+    //   author: {
+    //     name: 'Atighou Bah',
+    //     role: 'Patient de longue durée',
+    //     image: Atighou_Bah,
+    //   },
+    // },
     {
       content:
         'L’équipe m’a accompagné après mon opération avec un suivi personnalisé et une attention incroyable.',

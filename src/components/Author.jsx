@@ -42,12 +42,12 @@ export function Author() {
               Responsable des soins au Cabinet Infirmier Civiale.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              Avec plus de 30 ans d’expérience dans les soins infirmiers, Marie
-              Dubois est au service des habitants de Belleville. Son approche
-              chaleureuse et attentionnée garantit à chaque patient un suivi
-              personnalisé, que ce soit au cabinet ou à domicile. Elle s'engage
-              à offrir des soins de haute qualité, basés sur le respect et la
-              compassion.
+              Avec plus de 50 ans d’expérience dans les soins infirmiers, Nicole
+              Tostain et Chrystel Obach sont au service des habitants de
+              Belleville. Leur approche chaleureuse et attentionnée garantit à
+              chaque patient un suivi personnalisé, que ce soit au cabinet ou à
+              domicile. Elles s'engagent à offrir des soins de haute qualité,
+              basés sur le respect et la compassion.
             </p>
             <div className="mt-8">
               <a
