@@ -11,12 +11,6 @@ import { TableOfContents } from '@/components/TableOfContents' // Can represent 
 import { Testimonial } from '@/components/Testimonial'
 import { Testimonials } from '@/components/Testimonials'
 import Head from 'next/head'
-import dynamic from 'next/dynamic'
-
-const SimpleMap = dynamic(() => import('@/components/GoogleMap'), {
-  ssr: false,
-})
-
 
 const structuredData = {
   '@context': 'https://schema.org',
