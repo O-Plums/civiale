@@ -130,7 +130,7 @@ function Testimonial({ author, children }) {
           <Image
             className="h-12 w-12 object-cover"
             src={author.image}
-            alt=""
+            alt={author.name}
             width={48}
             height={48}
           />
@@ -198,8 +198,16 @@ export function Testimonials() {
             </li>
           ))}
         </ul>
-        <ExpandableButton>Voir plus de témoignages</ExpandableButton>
       </Expandable>
+      <div className="mt-10 flex w-full flex-col items-center justify-center">
+        <a
+          href="https://search.google.com/local/reviews?placeid=ChIJF3zNhUxt5kcRudBY-7p39sI&q=*&authuser=0&hl=en&gl=US"
+         target='_blank'
+          className="text-lg font-medium text-blue-600 underline hover:text-blue-800"
+        >
+          Lire plus de témoignages
+        </a>
+      </div>
     </section>
   )
 }

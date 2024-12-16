@@ -23,7 +23,7 @@ const structuredData = {
   '@type': 'MedicalBusiness',
   name: 'Cabinet Infirmier Civiale',
   url: 'https://infirmier-belleville.fr',
-  logo: '/path-to-logo.png',
+  logo: '/favicon.ico',
   telephone: '+33664206570',
   address: {
     '@type': 'PostalAddress',
@@ -40,20 +40,14 @@ const structuredData = {
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
-      dayOfWeek: [
-        'Monday',
-        'Tuesday',
-        'Wednesday',
-        'Thursday',
-        'Friday',
-      ],
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
       opens: '09:00',
       closes: '18:00',
     },
   ],
   description:
     'Des soins infirmiers attentifs à domicile et au cabinet, assurant le bien-être de nos patients à Belleville, Paris.',
-  image: '/path-to-your-image.jpg',
+  image: '/images/cover.png',
   priceRange: '$$',
   potentialAction: {
     '@type': 'ReserveAction',
@@ -66,17 +60,14 @@ const structuredData = {
       ],
     },
   },
-};
+}
 
 export default function Home() {
 
   return (
     <>
       <Head>
-        <title>
-          Cabinet Infirmier Civiale - Soins infirmiers à domicile et au cabinet
-          à 25 rue de Belleville, 75020 Paris
-         </title>
+        <title>Cabinet Infirmier Belleville, 75020 Paris</title>
         <meta
           name="description"
           content="Le Cabinet Infirmier Civiale propose des soins infirmiers professionnels et attentionnés, disponibles à domicile ou sur rendez-vous. Contactez-nous pour en savoir plus sur nos services."
@@ -91,26 +82,26 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Cabinet Infirmier Civiale - Soins infirmiers de qualité à Paris"
+          content="Cabinet Infirmier Belleville - Soins infirmiers de qualité à Paris"
         />
         <meta
           property="og:description"
           content="Découvrez notre cabinet à Belleville, Paris, offrant des soins infirmiers personnalisés pour chaque besoin de santé."
         />
-        <meta property="og:image" content="/path-to-your-image.jpg" />
+        <meta property="og:image" content="/images/cover.png" />
         <meta property="og:url" content="https://infirmier-belleville.fr" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Cabinet Infirmier Civiale - Votre santé, notre priorité"
+          content="Cabinet Infirmier Belleville - Votre santé, notre priorité"
         />
         <meta
           name="twitter:description"
           content="Des soins infirmiers attentifs à domicile et au cabinet. Situé à Belleville, Paris."
         />
-        <meta name="twitter:image" content="/path-to-your-image.jpg" />
+        <meta name="twitter:image" content="/images/cover.png" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}

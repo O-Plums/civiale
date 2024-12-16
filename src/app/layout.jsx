@@ -11,9 +11,9 @@ const inter = Inter({
 
 export const metadata = {
   title:
-    'Cabinet Infirmier Civiale - Infirmière à domicile et au cabinet à Belleville, Paris',
+    'Cabinet Infirmier - A domicile et au cabinet à Belleville, Paris',
   description:
-    'Le Cabinet Infirmier Civiale, une institution à Belleville, Paris, offre des soins infirmiers personnalisés à domicile et sur rendez-vous au cabinet pour assurer le bien-être de chaque patient.',
+    'Le Cabinet Infirmier Civiale, à Belleville, Paris, offre des soins infirmiers personnalisés à domicile et sur rendez-vous au cabinet.',
 }
 
 export default function RootLayout({ children }) {
