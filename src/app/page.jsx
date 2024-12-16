@@ -21,6 +21,7 @@ const structuredData = {
   '@type': 'MedicalBusiness',
   name: 'Cabinet Infirmier Civiale',
   url: 'https://yourwebsite.com',
+  logo: '/path-to-logo.png',
   telephone: '+33664206570',
   address: {
     '@type': 'PostalAddress',
@@ -29,12 +30,41 @@ const structuredData = {
     postalCode: '75020',
     addressCountry: 'FR',
   },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 48.8728737,
+    longitude: 2.3753148,
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: [
+        'Monday',
+        'Tuesday',
+        'Wednesday',
+        'Thursday',
+        'Friday',
+      ],
+      opens: '09:00',
+      closes: '18:00',
+    },
+  ],
   description:
-    'Des soins infirmiers attentifs à domicile et au cabinet, assurant le bien-être de nos patients.',
+    'Des soins infirmiers attentifs à domicile et au cabinet, assurant le bien-être de nos patients à Belleville, Paris.',
   image: '/path-to-your-image.jpg',
-  openingHours: 'Mo-Fr 09:00-18:00',
   priceRange: '$$',
-}
+  potentialAction: {
+    '@type': 'ReserveAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://yourwebsite.com/reservation',
+      actionPlatform: [
+        'http://schema.org/DesktopWebPlatform',
+        'http://schema.org/MobileWebPlatform',
+      ],
+    },
+  },
+};
 
 export default function Home() {
   return (
