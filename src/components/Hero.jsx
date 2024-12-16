@@ -59,7 +59,13 @@ export function Hero() {
             </h1>
             <p className="mt-4 text-2xl text-slate-600">
               Votre partenaire de santé et de bien-être depuis plus de 30 ans à
-              Belleville, Paris.
+              <a
+                className="ml-1 text-blue-600 hover:underline"
+                target="_blank"
+                href="https://www.google.fr/maps/place/Cabinet+Infirmier+Civiale/@48.8728737,2.3753148,17z/data=!4m6!3m5!1s0x47e66d4c85cd7c17:0xc2f677bafb58d0b9!8m2!3d48.8728737!4d2.3753148!16s%2Fg%2F11y83lwr41?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+              >
+                25 rue de Belleville, 75020 Paris
+              </a>
             </p>
             <p className="mt-4 text-lg text-slate-600">
               Avec des soins à domicile et des consultations sur rendez-vous,
@@ -74,6 +80,7 @@ export function Hero() {
                 Appelez-nous au 06 64 20 65 70
               </a>
             </div>
+
           </div>
         </div>
       </div>

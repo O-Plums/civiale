@@ -8,6 +8,7 @@ import {
   ExpandableItems,
 } from '@/components/Expandable'
 
+
 // At the top of your file:
 import Annick_Annick from '@/images/avatars/Annick_Annick.jpg'
 import Sarah_Mimoun from '@/images/avatars/Sarah_Mimoun.jpg'
@@ -39,7 +40,7 @@ const testimonials = [
         'Je suis tellement reconnaissante des soins à domicile fournis par l’équipe. Leur gentillesse et professionnalisme sont exemplaires.',
       author: {
         name: 'Sarah Mimoun',
-        role: 'Résidente',
+        role: 'Patiente',
         image: Sarah_Mimoun,
       },
     },
@@ -97,7 +98,7 @@ const testimonials = [
         'Je recommande vivement leurs services à toute personne ayant besoin de soins infirmiers personnalisés et attentionnés.',
       author: {
         name: 'Isabel Mendoca',
-        role: 'Résidente',
+        role: 'Patiente',
         image: Isabel_Mendoca,
       },
     },

@@ -16,9 +16,16 @@ export function Introduction() {
           domicile et au cabinet.
         </p>
         <p className="mt-4">
-          Depuis plus de 30 ans, notre cabinet situé au cœur de Belleville,
-          Paris, offre des soins infirmiers de qualité pour répondre aux besoins
-          de santé de chaque patient avec compassion et professionnalisme.
+          Depuis plus de 30 ans, notre cabinet situé
+          <a
+            className="mx-1 text-blue-600 hover:underline"
+            target="_blank"
+            href="https://www.google.fr/maps/place/Cabinet+Infirmier+Civiale/@48.8728737,2.3753148,17z/data=!4m6!3m5!1s0x47e66d4c85cd7c17:0xc2f677bafb58d0b9!8m2!3d48.8728737!4d2.3753148!16s%2Fg%2F11y83lwr41?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
+          >
+            au cœur de Belleville, Paris, 
+          </a>
+          offre des soins infirmiers de qualité pour répondre aux besoins de
+          santé de chaque patient avec compassion et professionnalisme.
         </p>
         <p className="mt-4">
           Nos infirmiers expérimentés sont dédiés à fournir une prise en charge

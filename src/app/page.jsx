@@ -11,7 +11,11 @@ import { TableOfContents } from '@/components/TableOfContents' // Can represent 
 import { Testimonial } from '@/components/Testimonial'
 import { Testimonials } from '@/components/Testimonials'
 import Head from 'next/head'
+import dynamic from 'next/dynamic'
 
+const SimpleMap = dynamic(() => import('@/components/GoogleMap'), {
+  ssr: false,
+})
 
 
 const structuredData = {
@@ -65,13 +69,14 @@ const structuredData = {
 };
 
 export default function Home() {
+
   return (
     <>
       <Head>
         <title>
           Cabinet Infirmier Civiale - Soins infirmiers à domicile et au cabinet
-          à Belleville, Paris
-        </title>
+          à 25 rue de Belleville, 75020 Paris
+         </title>
         <meta
           name="description"
           content="Le Cabinet Infirmier Civiale propose des soins infirmiers professionnels et attentionnés, disponibles à domicile ou sur rendez-vous. Contactez-nous pour en savoir plus sur nos services."
@@ -148,7 +153,10 @@ export default function Home() {
 
       {/*<Resources />
       <FreeChapters /> 
-      <Pricing /> */}
+      <Pricing /> 
+      <SimpleMap />
+      */}
+
       <Testimonials />
       <Author />
       <Footer />
