@@ -10,8 +10,6 @@ import { Pricing } from '@/components/Pricing'
 import { TableOfContents } from '@/components/TableOfContents' // Can represent service categories
 import { Testimonial } from '@/components/Testimonial'
 import { Testimonials } from '@/components/Testimonials'
-import avatarImage1 from '@/images/avatars/avatar-1.png'
-import avatarImage2 from '@/images/avatars/avatar-2.png'
 import Head from 'next/head'
 
 
@@ -115,40 +113,42 @@ export default function Home() {
       </Head>
       <Hero />
       <Introduction />
-      <NavBar />
-      <TableOfContents />
+      {/*
+       <NavBar />
+       <TableOfContents />
       <Testimonial
         id="testimonial-from-patient-marie-dubois"
         author={{
-          name: 'Marie Dubois',
-          role: 'Patient de Belleville',
+          name: 'Geeta Bee',
+          role: 'Patient',
           image: avatarImage1,
         }}
       >
         <p>
-          “Le Cabinet Infirmier Civiale a transformé ma façon de recevoir des
-          soins. Leur équipe est attentionnée et compétente. Je recommande
-          fortement leurs services à toute la communauté.”
+          “Les infirmières très gentilles, serviables, aimables , ponctuelles ,
+          elles sont toujours là quand on a besoin d'elles. Je recommande à tout
+          le monde.”
         </p>
       </Testimonial>
-      {/*<Screencasts /> */}
       <Testimonial
         id="testimonial-from-patient-jean-martin"
         author={{
-          name: 'Jean Martin',
-          role: 'Patient de longue date',
+          name: 'Jeanne Hélène Ngo Mintamack',
+          role: 'Patient',
           image: avatarImage2,
         }}
       >
         <p>
-          “Les soins à domicile m'ont permis de rester chez moi tout en recevant
-          l'attention médicale dont j'avais besoin. Le personnel est
-          bienveillant et professionnel.”
+          “Je suis suivie pour mon diabète depuis plusieurs années par les
+          infirmières de ce cabinet qui sont bienveillantes, attentionnée et
+          professionnelles.”
         </p>
       </Testimonial>
+     */}
+
       {/*<Resources />
-      <FreeChapters /> */}
-      <Pricing />
+      <FreeChapters /> 
+      <Pricing /> */}
       <Testimonials />
       <Author />
       <Footer />

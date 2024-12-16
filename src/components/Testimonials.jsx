@@ -7,15 +7,21 @@ import {
   ExpandableButton,
   ExpandableItems,
 } from '@/components/Expandable'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
-import avatarImage4 from '@/images/avatars/avatar-4.png'
-import avatarImage5 from '@/images/avatars/avatar-5.png'
-import avatarImage6 from '@/images/avatars/avatar-6.png'
-import avatarImage7 from '@/images/avatars/avatar-7.png'
-import avatarImage8 from '@/images/avatars/avatar-8.png'
-import avatarImage9 from '@/images/avatars/avatar-9.png'
-import avatarImage10 from '@/images/avatars/avatar-10.png'
-import avatarImage11 from '@/images/avatars/avatar-11.png'
+
+// At the top of your file:
+import Annick_Annick from '@/images/avatars/Annick_Annick.jpg'
+import Sarah_Mimoun from '@/images/avatars/Sarah_Mimoun.jpg'
+import Claude_Marion from '@/images/avatars/Claude_Marion.jpg'
+
+import Atighou_Bah from '@/images/avatars/Atighou_Bah.jpg'
+import Wilfried_Tchinda from '@/images/avatars/Wilfried_Tchinda.jpg'
+import Dominique_Msirdi from '@/images/avatars/Dominique_Msirdi.jpg'
+
+import Geeta_Bee from '@/images/avatars/Geeta_Bee.jpg'
+import Isabel_Mendoca from '@/images/avatars/Isabel_Mendoca.jpg'
+import Jeanne_Hélène_Ngo_Mintamack from '@/images/avatars/Jeanne_Hélène_Ngo_Mintamack.jpg'
+
+// Now update your testimonials array to use these imported images:
 
 const testimonials = [
   [
@@ -23,27 +29,27 @@ const testimonials = [
       content:
         'Le Cabinet Infirmier Civiale est un véritable atout pour notre quartier. Leur équipe est attentionnée et professionnelle.',
       author: {
-        name: 'Julien Martin',
-        role: 'Patient de longue date',
-        image: avatarImage3,
+        name: 'Annick Annick',
+        role: 'Patiente',
+        image: Annick_Annick,
       },
     },
     {
       content:
         'Je suis tellement reconnaissante des soins à domicile fournis par l’équipe. Leur gentillesse et professionnalisme sont exemplaires.',
       author: {
-        name: 'Sophie Leclerc',
-        role: 'Résidente de Belleville',
-        image: avatarImage4,
+        name: 'Sarah Mimoun',
+        role: 'Résidente',
+        image: Sarah_Mimoun,
       },
     },
     {
       content:
         'Grâce à leurs soins, ma convalescence a été beaucoup plus facile. Je recommande sans hésitation.',
       author: {
-        name: 'Claire Dupont',
-        role: 'Patiente',
-        image: avatarImage9,
+        name: 'Claude Marion',
+        role: 'Patient',
+        image: Claude_Marion,
       },
     },
   ],
@@ -52,27 +58,27 @@ const testimonials = [
       content:
         'Je n’ai jamais connu un service aussi humain et attentif. Le Cabinet Infirmier Civiale s’occupe de nous comme une famille.',
       author: {
-        name: 'Antoine Moreau',
+        name: 'Atighou Bah',
         role: 'Patient de longue durée',
-        image: avatarImage7,
+        image: Atighou_Bah,
       },
     },
     {
       content:
         'L’équipe m’a accompagné après mon opération avec un suivi personnalisé et une attention incroyable.',
       author: {
-        name: 'Marie Laurent',
-        role: 'Patiente en convalescence',
-        image: avatarImage11,
+        name: 'Wilfried Tchinda',
+        role: 'Patient en convalescence',
+        image: Wilfried_Tchinda,
       },
     },
     {
       content:
         'Leurs soins à domicile ont fait toute la différence pour ma mère. Je suis impressionnée par leur dévouement.',
       author: {
-        name: 'Isabelle Dupuis',
+        name: 'Dominique Msirdi',
         role: 'Fille d’une patiente',
-        image: avatarImage8,
+        image: Dominique_Msirdi,
       },
     },
   ],
@@ -81,31 +87,34 @@ const testimonials = [
       content:
         'Je n’ai jamais eu autant de soutien dans mon parcours de santé. Leur équipe est formidable!',
       author: {
-        name: 'Lucas Perrot',
-        role: 'Patient',
-        image: avatarImage5,
+        name: 'Geeta Bee',
+        role: 'Patiente',
+        image: Geeta_Bee,
       },
     },
     {
       content:
         'Je recommande vivement leurs services à toute personne ayant besoin de soins infirmiers personnalisés et attentionnés.',
       author: {
-        name: 'Emma Fontaine',
-        role: 'Résidente de Paris',
-        image: avatarImage10,
+        name: 'Isabel Mendoca',
+        role: 'Résidente',
+        image: Isabel_Mendoca,
       },
     },
     {
       content:
         'Une équipe de confiance et des soins de qualité. Ils sont toujours disponibles et professionnels.',
       author: {
-        name: 'Alice Marchand',
+        name: 'Jeanne Hélène Ngo Mintamack',
         role: 'Patiente régulière',
-        image: avatarImage6,
+        image: Jeanne_Hélène_Ngo_Mintamack,
       },
     },
   ],
 ]
+
+export default testimonials
+
 
 function Testimonial({ author, children }) {
   return (

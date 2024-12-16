@@ -11,16 +11,17 @@ function Testimonial() {
       </div>
       <blockquote className="mt-2">
         <p className="font-display text-xl font-medium text-slate-900">
-          “Le Cabinet Infirmier Civiale offre des soins attentionnés et de
-          grande qualité à Belleville. Leur dévouement au bien-être de chaque
-          patient est remarquable.”
+          Ça fait 3 ans que les infirmières me soignent. Elles sont très
+          gentilles et elles travaillent très bien. Elles me font des
+          injections, des prises de sang. Elles m'apportent tout le soutien dont
+          j'ai besoin avec ma maladie Je suis très contente.
         </p>
       </blockquote>
       <figcaption className="mt-2 text-sm text-slate-500">
         <strong className="font-semibold text-red-600 before:content-['—_']">
-          Marion Dubois
+          Isabel Mendoca
         </strong>
-        , Résidente de Belleville
+        , Cliente du cabinet
       </figcaption>
     </figure>
   )

@@ -16,7 +16,7 @@ const sections = [
   },
   // { id: 'screencasts', title: 'Éducation et Vidéos' }, // Adapted to showcase educational videos
   // { id: 'resources', title: 'Ressources' }, // Resources for health-related guides or articles
-  { id: 'pricing', title: 'Tarifs' }, // Healthcare service pricing
+  // { id: 'pricing', title: 'Tarifs' }, // Healthcare service pricing
   { id: 'author', title: 'Notre Équipe' }, // Team introduction instead of author
 ]
 

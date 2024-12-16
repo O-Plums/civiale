@@ -38,26 +38,25 @@ export function Author() {
               Infirmière en Chef
             </SectionHeading>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-              <span className="block text-blue-600">Marie Dubois –</span>{' '}
+              <span className="block text-blue-600">Nicole Tostain –</span>{' '}
               Responsable des soins au Cabinet Infirmier Civiale.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              Avec plus de 20 ans d’expérience dans les soins infirmiers, Marie
+              Avec plus de 30 ans d’expérience dans les soins infirmiers, Marie
               Dubois est au service des habitants de Belleville. Son approche
               chaleureuse et attentionnée garantit à chaque patient un suivi
               personnalisé, que ce soit au cabinet ou à domicile. Elle s'engage
               à offrir des soins de haute qualité, basés sur le respect et la
               compassion.
             </p>
-            <p className="mt-8">
-              <Link
-                href="#"
-                className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
+            <div className="mt-8">
+              <a
+                href="tel:0664206570"
+                className="text-lg font-semibold text-red-600 hover:underline"
               >
-                <XIcon className="h-10 w-10 fill-current" />
-                <span className="ml-4">Contactez Marie</span>
-              </Link>
-            </p>
+                Appelez-nous au 06 64 20 65 70
+              </a>
+            </div>
           </div>
         </div>
       </div>
