@@ -73,7 +73,7 @@ const testimonials = [
     },
     {
       content:
-        'Leurs soins à domicile ont fait toute la différence pour ma mère. Je suis impressionnée par leur dévouement.',
+        'Merci Chrystel et Nicole pour votre professionnalisme et votre gentillesse',
       author: {
         name: 'Dominique Msirdi',
         role: 'Fille d’une patiente',
