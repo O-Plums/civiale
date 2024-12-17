@@ -12,6 +12,7 @@
   "browserslist": "defaults, not ie <= 11",
   "dependencies": {
     "@headlessui/react": "^2.1.0",
+    "@vercel/speed-insights": "^1.1.0",
     "autoprefixer": "^10.4.12",
     "clsx": "^2.1.0",
     "google-map-react": "^2.2.1",

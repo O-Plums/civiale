@@ -11,7 +11,6 @@ import { TableOfContents } from '@/components/TableOfContents' // Can represent 
 import { Testimonial } from '@/components/Testimonial'
 import { Testimonials } from '@/components/Testimonials'
 import Head from 'next/head'
-
 export default function Home() {
 
   return (
