@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import clsx from 'clsx'
 import { SpeedInsights } from '@vercel/speed-insights/next'
-
+import { Analytics } from '@vercel/analytics/react'
 import '@/styles/tailwind.css'
 
 const inter = Inter({
@@ -123,6 +123,7 @@ export default function RootLayout({ children }) {
       <body className="flex min-h-full flex-col">
         {children}
         <SpeedInsights />
+        <Analytics />
       </body>
     </html>
   )
