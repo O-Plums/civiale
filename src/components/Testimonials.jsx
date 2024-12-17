@@ -26,18 +26,17 @@ import Jeanne_Hélène_Ngo_Mintamack from '@/images/avatars/Jeanne_Hélène_Ngo_
 
 const testimonials = [
   [
-    // {
-    //   content:
-    //     'Le Cabinet Infirmier Civiale est un véritable atout pour notre quartier. Leur équipe est attentionnée et professionnelle.',
-    //   author: {
-    //     name: 'Annick Annick',
-    //     role: 'Patiente',
-    //     image: Annick_Annick,
-    //   },
-    // },
+    {
+      content: 'Très bien gentille très très aimable',
+      author: {
+        name: 'Annick Annick',
+        role: 'Patiente',
+        image: Annick_Annick,
+      },
+    },
     {
       content:
-        'Je suis tellement reconnaissante des soins à domicile fournis par l’équipe. Leur gentillesse et professionnalisme sont exemplaires.',
+        'Infirmière au top ! Très professionnel et toujours ponctuel ! Et sympathique ! Merci !',
       author: {
         name: 'Sarah Mimoun',
         role: 'Patiente',
@@ -46,7 +45,7 @@ const testimonials = [
     },
     {
       content:
-        'Grâce à leurs soins, ma convalescence a été beaucoup plus facile. Je recommande sans hésitation.',
+        "Chrystel s'occupe de moi depuis des années. Elle est géniale. Elle est patiente, et fait très bien son travail.",
       author: {
         name: 'Claude Marion',
         role: 'Patient',
@@ -55,15 +54,14 @@ const testimonials = [
     },
   ],
   [
-    // {
-    //   content:
-    //     'Je n’ai jamais connu un service aussi humain et attentif. Le Cabinet Infirmier Civiale s’occupe de nous comme une famille.',
-    //   author: {
-    //     name: 'Atighou Bah',
-    //     role: 'Patient de longue durée',
-    //     image: Atighou_Bah,
-    //   },
-    // },
+    {
+      content: 'Je valide ce cabinet à 100% ils sont trop organisés trop gentils leurs travail nickel et le dialogue nickel aussi bref je trouve pas un autre cabinet plus qu’eux merci Nicole et Chrystel',
+      author: {
+        name: 'Atighou Bah',
+        role: 'Patient de longue durée',
+        image: Atighou_Bah,
+      },
+    },
     {
       content:
         'L’équipe m’a accompagné après mon opération avec un suivi personnalisé et une attention incroyable.',
@@ -86,7 +84,7 @@ const testimonials = [
   [
     {
       content:
-        'Je n’ai jamais eu autant de soutien dans mon parcours de santé. Leur équipe est formidable!',
+        "Les infirmières très gentilles, serviables, aimables , ponctuelles , elles sont toujours là quand on a besoin d'elles. Je recommande à tout le monde.",
       author: {
         name: 'Geeta Bee',
         role: 'Patiente',
@@ -95,7 +93,7 @@ const testimonials = [
     },
     {
       content:
-        'Je recommande vivement leurs services à toute personne ayant besoin de soins infirmiers personnalisés et attentionnés.',
+        "Ça fait 3 ans que les infirmières me soignent. Elles sont très gentilles et elles travaillent très bien. Elles me font des injections, des prises de sang. Elles m'apportent tout le soutien dont j'ai besoin avec ma maladie  Je suis très contente.",
       author: {
         name: 'Isabel Mendoca',
         role: 'Patiente',
@@ -104,7 +102,7 @@ const testimonials = [
     },
     {
       content:
-        'Une équipe de confiance et des soins de qualité. Ils sont toujours disponibles et professionnels.',
+        'Je suis suivie pour mon diabète depuis plusieurs années par les infirmières de ce cabinet qui sont bienveillantes, attentionnée et professionnelles.',
       author: {
         name: 'Jeanne Hélène Ngo Mintamack',
         role: 'Patiente régulière',

@@ -64,7 +64,7 @@ export function Hero() {
                 target="_blank"
                 href="https://www.google.fr/maps/place/Cabinet+Infirmier+Civiale/@48.8728737,2.3753148,17z/data=!4m6!3m5!1s0x47e66d4c85cd7c17:0xc2f677bafb58d0b9!8m2!3d48.8728737!4d2.3753148!16s%2Fg%2F11y83lwr41?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D"
               >
-                10 rue civiale, Belleville , 75020 Paris
+                10 rue civiale, Belleville , 75010 Paris
               </a>
             </p>
             <p className="mt-4 text-lg text-slate-600">

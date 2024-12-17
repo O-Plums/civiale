@@ -28,7 +28,7 @@ const structuredData = {
     '@type': 'PostalAddress',
     streetAddress: '10 rue civiale, Belleville ',
     addressLocality: 'Paris',
-    postalCode: '75020',
+    postalCode: '75010',
     addressCountry: 'FR',
   },
   geo: {

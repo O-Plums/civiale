@@ -42,10 +42,10 @@ export function Author() {
               Responsable des soins au Cabinet Infirmier Civiale.
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
-              Avec plus de 50 ans d’expérience dans les soins infirmiers, Nicole
-              Tostain et Chrystel Obach sont au service des habitants de
-              Belleville. Leur approche chaleureuse et attentionnée garantit à
-              chaque patient un suivi personnalisé, que ce soit au cabinet ou à
+              Avec plus de 50 ans d'expérience pour Nicole Tostain et 6
+              ans pour Mme Obach, sont au service des habitants de Belleville.
+              Leur approche chaleureuse et attentionnée garantit à chaque
+              patient un suivi personnalisé, que ce soit au cabinet ou à
               domicile. Elles s'engagent à offrir des soins de haute qualité,
               basés sur le respect et la compassion.
             </p>
